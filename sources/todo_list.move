@@ -3,7 +3,7 @@ module todo_list::todo_list;
 
 use std::string::String;
 
-/// List of todos. Can be managed by the owner and shared with others.
+/// List of todos. 
 public struct TodoList has key, store {
     id: UID,
     items: vector<String>
